@@ -1,0 +1,121 @@
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  background-color: #f0fff0;
+  color: #333;
+}
+
+header {
+  background-color: #2e8b57;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  background-color: #eafaf1;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 36px;
+  color: #2d6a4f;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 26px;
+  color: #2e8b57;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 8px;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.videos a {
+  display: inline-block;
+  margin: 10px 0;
+  color: #1d3557;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: #d4f3df;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.videos a:hover {
+  background-color: #b2e6ca;
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2e8b57;
+  color: white;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.image-row img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
